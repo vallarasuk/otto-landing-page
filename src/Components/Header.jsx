@@ -3,7 +3,6 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='container'>
-
         <div className="row">
             <div className="col-5 justify-content-around d-flex pt-5 mt-4 fw-bold header-nav">
                 <a href="https://withotter.com/parents" className="text-decoration-none">Parents</a>
