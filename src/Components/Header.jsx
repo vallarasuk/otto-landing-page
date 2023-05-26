@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button/Button'
 
 const Header = () => {
   return (
@@ -15,8 +16,8 @@ const Header = () => {
             </div>
             <div className="col-4 py-5 justify-content-end d-flex my-4">
               <a href="https://app.withotter.com/log-in?device-id=zV2leBbFxJ7xn0FYHcVKtO" className="fw-bold mx-2 text-decoration-none btn ">Log in</a>
-              
-              <a href="https://app.withotter.com/log-in?device-id=zV2leBbFxJ7xn0FYHcVKtO" className="button-style text-decoration-none">Sign up</a>
+            
+              <Button link={"https://app.withotter.com/log-in?device-id=zV2leBbFxJ7xn0FYHcVKtO"} buttonText={"Sign up"}/>
             </div>
         </div>
       
