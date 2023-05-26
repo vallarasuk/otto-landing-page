@@ -14,7 +14,7 @@ const Content = () => {
               Otter matches parents who need care with trusted sitters in their community, on-demand.
             </p>
             <button className=" button-style">Sign Up</button>
-          
+          <h1>hello</h1>
           </div>
         </div>
       </div>
