@@ -16,7 +16,7 @@ const SecondSlideContent = () => {
     like that, you're all set.`;
 
   return (
-    <div className="my-5 second-slide-main">
+    <div className=" second-slide-main">
       <div className="row py-5">
         <div className="col-7">
           <p className="fw-bolder">HOW IT WORKS</p>
