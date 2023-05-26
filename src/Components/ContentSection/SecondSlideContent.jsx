@@ -1,15 +1,15 @@
 import React from "react";
-import Button from "../Button/Button";
+// import Button from "../Button/Button";
 
 const SecondSlideContent = () => {
-  const signUpStyle = {
-    borderRadius: "50px",
-    backgroundColor: "#ffffff",
-    padding: "10px 25px",
-    border: "none",
-    fontWeight: "bold",
-    color: "#00373e",
-  };
+  // const signUpStyle = {
+  //   borderRadius: "50px",
+  //   backgroundColor: "#ffffff",
+  //   padding: "10px 25px",
+  //   border: "none",
+  //   fontWeight: "bold",
+  //   color: "#00373e",
+  // };
 
   const signUpText = `We like to keep it simple. Tell us your name, contact
     information, and a little bit about you and your kids. Just
@@ -27,11 +27,14 @@ const SecondSlideContent = () => {
             We'll match you with sitters based on your family's needs and their
             availability.
           </p>
-          <Button
+          {/* <Button
             link="https://withotter.com/#"
             customStyle={signUpStyle}
             buttonText={"Sign Up"}
-          />
+          /> */}
+           <div className="my-5 pointer">
+            <h6>Sign Up</h6>
+          </div>
           <div className="my-5">
             <h6>Book a sitter</h6>
           </div>
