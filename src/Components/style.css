@@ -6,6 +6,19 @@
     --background-color: #ffffff;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.demo::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.demo {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 
 body {
     background-color: #f8f6f5;
@@ -70,4 +83,53 @@ body {
     /* height: 90vh; */
     color: var(--text-color);
     background-color: var(--background-color);
+}
+
+.move-icon {
+    color: #00373e;
+    background-color: #ffffff;
+    /* font-size: 2rem; */
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+.move-icon:hover {
+    color: aliceblue;
+    background-color: #00373e;
+    border-radius: 60%;
+    /* font-size: 2rem; */
+    cursor: pointer;
+}
+
+.card-one {
+    background-color: #00373e !important;
+    color: white;
+}
+
+.card-two {
+    background-color: #94954c !important;
+    color: white;
+
+}
+
+.card-three {
+    background-color: #fbad9c !important;
+    color: #00373e;
+}
+
+.card-four {
+    background-color: #ac9e88 !important;
+    color: #00373e;
+}
+
+.card-five {
+    background-color: #fbd3b6 !important;
+}
+
+.card-six {
+    background-color: #ff76df !important;
+}
+
+.card-seven {
+    background-color: #f4f4f6 !important;
 }
