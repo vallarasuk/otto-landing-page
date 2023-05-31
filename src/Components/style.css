@@ -137,3 +137,8 @@ body {
 .section-four{
     background-color: #fbd3b6 !important;
 }
+
+.border-radius{
+    border-radius: 40px!important;
+    border: none;
+}
