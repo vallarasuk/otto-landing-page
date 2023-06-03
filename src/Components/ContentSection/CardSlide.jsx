@@ -18,11 +18,22 @@ const CardSlide = ({ quote, author, className }) => {
     >
       <div
         className="card-body h5"
-        style={{ flex: "1 1 auto", padding: "2.25rem" }}
+        style={{
+          flex: "1 1 auto",
+          padding: "2.25rem",
+          fontSize: "1.5rem",
+        }}
       >
         <q>{quote}</q>
       </div>
-      <div className="text-start p-4">{author}</div>
+      <div
+        className="text-start p-4"
+        style={{
+          fontSize: "1rem",
+        }}
+      >
+        {author}
+      </div>
     </div>
   );
 };

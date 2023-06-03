@@ -248,3 +248,77 @@ body {
 .how-button-section-content.animate {
     opacity: 1;
 }
+
+
+@media (max-width: 767px) {
+
+    /* Styles for smaller screens */
+    .card-body {
+        padding: 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .text-start {
+        padding: 1rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Styles for medium-sized screens */
+    .card-body {
+        padding: 1.75rem;
+        font-size: 1.25rem;
+    }
+
+    .text-start {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    /* Styles for smaller screens */
+    .second-slide-main {
+      margin-top: 2rem;
+    }
+    .display-2 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for medium-sized screens */
+    .second-slide-main {
+      margin-top: 4rem;
+    }
+    .display-2 {
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 991px) {
+    /* Styles for medium-sized and smaller screens */
+    .card-one {
+      padding: 3rem;
+    }
+    .card-one h1 {
+      font-size: 2rem;
+    }
+    .card-one p {
+      font-size: 1.5rem;
+    }
+    .footer-section-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer-section-links a {
+      margin: 0.5rem;
+    }
+    .footer-bottom-text {
+      flex-wrap: wrap;
+    }
+  }
