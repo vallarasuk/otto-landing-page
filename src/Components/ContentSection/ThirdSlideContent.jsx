@@ -8,7 +8,7 @@ import {
 import CardSlide from "./CardSlide";
 
 const ThirdSlideContent = () => {
-//   const [currentSlide, setCurrentSlide] = useState(0);
+  //   const [currentSlide, setCurrentSlide] = useState(0);
   const cardContainerRef = useRef(null);
   const cardSlides = [
     {
@@ -37,17 +37,17 @@ const ThirdSlideContent = () => {
     },
   ];
 
-//   const handlePrevSlide = () => {
-//     setCurrentSlide((prevSlide) =>
-//       prevSlide === 0 ? cardSlides.length - 1 : prevSlide - 1
-//     );
-//   };
+  //   const handlePrevSlide = () => {
+  //     setCurrentSlide((prevSlide) =>
+  //       prevSlide === 0 ? cardSlides.length - 1 : prevSlide - 1
+  //     );
+  //   };
 
-//   const handleNextSlide = () => {
-//     setCurrentSlide((prevSlide) =>
-//       prevSlide === cardSlides.length - 1 ? 0 : prevSlide + 1
-//     );
-//   };
+  //   const handleNextSlide = () => {
+  //     setCurrentSlide((prevSlide) =>
+  //       prevSlide === cardSlides.length - 1 ? 0 : prevSlide + 1
+  //     );
+  //   };
 
   const slideCardContainer = (direction) => {
     const container = cardContainerRef.current;
