@@ -7,7 +7,7 @@ const Button = ({ link, buttonText, customStyle }) => {
         {buttonText}
       </a>
     </button>
-  );
+  );  
 };
 
 export default Button;
