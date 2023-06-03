@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/otto-landing-page/static/css/main.a0108796.css",
+    "main.js": "/otto-landing-page/static/js/main.8cae0a65.js",
+    "index.html": "/otto-landing-page/index.html",
+    "main.a0108796.css.map": "/otto-landing-page/static/css/main.a0108796.css.map",
+    "main.8cae0a65.js.map": "/otto-landing-page/static/js/main.8cae0a65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0108796.css",
+    "static/js/main.8cae0a65.js"
+  ]
+}
